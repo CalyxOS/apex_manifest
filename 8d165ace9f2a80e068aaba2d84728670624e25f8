@@ -52,6 +52,24 @@
       "parentUuid": "219ad1ff_c5fab7e7",
       "revId": "8d165ace9f2a80e068aaba2d84728670624e25f8",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9b6156be_40c6c2f0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2024-03-04T16:33:48Z",
+      "side": 1,
+      "message": "The tag should hopefully be enough without the revision hash, but AOSP\u0027s tags are sometimes unbuildable, and I wonder if they would ever quietly change them (I hope not!), in which case the revision hash might still be useful. But I also don\u0027t know what argument we would give to `repo manifest -r` to remove those. If we really didn\u0027t want them, we may need to strip them out some other way.\n\nWe\u0027ve already discussed this though and the hashes are okay.",
+      "parentUuid": "2ac72f93_6ab8e6ad",
+      "revId": "8d165ace9f2a80e068aaba2d84728670624e25f8",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
