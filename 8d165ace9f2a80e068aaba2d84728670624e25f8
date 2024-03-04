@@ -16,6 +16,24 @@
       "message": "Maybe useful options (despite what it says) for more useful history of manifests?\n```\n--suppress-upstream-revision\n                        if in -r mode, do not write the upstream field (only                              of use if the branch names for a sha1 manifest are\n                        sensitive)                                                  --suppress-dest-branch\n                        if in -r mode, do not write the dest-branch field                                 (only of use if the branch names for a sha1 manifest\n                        are sensitive)\n```",
       "revId": "8d165ace9f2a80e068aaba2d84728670624e25f8",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "219ad1ff_c5fab7e7",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2024-03-04T13:44:37Z",
+      "side": 1,
+      "message": "Copy/paste was invaded by whitespace. The options to look into were:\n- `--suppress-upstream-revision`\n- `--suppress-dest-branch`",
+      "parentUuid": "c6e201ec_4193af18",
+      "revId": "8d165ace9f2a80e068aaba2d84728670624e25f8",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
