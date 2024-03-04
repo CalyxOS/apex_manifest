@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c6e201ec_4193af18",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2024-03-04T13:42:51Z",
+      "side": 1,
+      "message": "Maybe useful options (despite what it says) for more useful history of manifests?\n```\n--suppress-upstream-revision\n                        if in -r mode, do not write the upstream field (only                              of use if the branch names for a sha1 manifest are\n                        sensitive)                                                  --suppress-dest-branch\n                        if in -r mode, do not write the dest-branch field                                 (only of use if the branch names for a sha1 manifest\n                        are sensitive)\n```",
+      "revId": "8d165ace9f2a80e068aaba2d84728670624e25f8",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
