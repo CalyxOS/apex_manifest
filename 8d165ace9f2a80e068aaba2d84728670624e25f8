@@ -34,6 +34,24 @@
       "parentUuid": "c6e201ec_4193af18",
       "revId": "8d165ace9f2a80e068aaba2d84728670624e25f8",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2ac72f93_6ab8e6ad",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2024-03-04T16:31:34Z",
+      "side": 1,
+      "message": "Done. The effect for us is that it removes the redundant parts of the project lines that already match the default. Keeps the revision hash so that we (and others) know for certain exactly what was used in building, and may make it easier to track what actually changed, but maybe not, since AOSP does those \"Snap\" commits.",
+      "parentUuid": "219ad1ff_c5fab7e7",
+      "revId": "8d165ace9f2a80e068aaba2d84728670624e25f8",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
