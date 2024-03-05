@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f2a69839_f337cf83",
+        "filename": "aosp_adb.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2024-03-05T16:38:43Z",
+      "side": 1,
+      "message": "`fetch\u003d\"..\"` is a problem because this manifests repo is obviously not hosted at AOSP. That means none of the projects below can be found.\n\nI don\u0027t *think* there is a way to fix this by changing `repo manifest` args. We\u0027ll probably just want to replace it with sed. See https://review.calyxos.org/c/CalyxOS/scripts/+/24665",
+      "range": {
+        "startLine": 3,
+        "startChar": 22,
+        "endLine": 3,
+        "endChar": 32
+      },
+      "revId": "2d39eace7c7a6bf6ee23b64052dd94ef5a48c540",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
