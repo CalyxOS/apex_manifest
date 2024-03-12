@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4aecfe58_98fe0283",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2024-03-12T16:00:01Z",
+      "side": 1,
+      "message": "Just building and replacing AdServices and its SDK doesn\u0027t resolve the AdServices build errors shown in https://gitlab.com/CalyxOS/calyxos/-/issues/298#note_1811353742",
+      "revId": "7ae7d75109ee23d0732e6adfa3b63465833025d2",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
