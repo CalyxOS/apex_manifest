@@ -4,7 +4,7 @@
   <remote name="calyx"
           fetch="ssh://git@gitlab.com"
           review="review.calyxos.org"
-          revision="refs/tags/aml_tet_341310230-calyx" />
+          revision="refs/tags/android-14.0.0_r29-calyx" />
 
   <include name="aosp_Connectivity.xml" />
 
