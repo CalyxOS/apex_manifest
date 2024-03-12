@@ -9,7 +9,7 @@
   <include name="aosp_Connectivity.xml" />
 
   <remove-project name="platform/packages/modules/Connectivity" />
-  <project name="CalyxOS/tmp/platform_packages_modules_Connectivity" path="packages/modules/Connectivity" remote="calyx" />
+  <project revision="refs/tags/aml_tet_341310230-calyx-2" name="CalyxOS/tmp/platform_packages_modules_Connectivity" path="packages/modules/Connectivity" remote="calyx" />
 
   <remove-project name="platform/frameworks/base" />
   <project name="CalyxOS/tmp/platform_frameworks_base" path="frameworks/base" remote="calyx" />
